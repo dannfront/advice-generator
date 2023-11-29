@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dist/output.css">
+  <script defer src="js/script.js"></script>
+
+  <title>Frontend Mentor | Advice generator app</title>
+</head>
+
+<body class="bg-Dark-Blue flex justify-center items-center h-screen">
+
+
+
+  <div class="bg-Gray-blue-dark p-5 w-11/12 max-w-md rounded-xl relative">
+
+
+    <p class="text-Neon-Green text-center uppercase mb-5 font-manrope text-sm">advice # <span class="id"></span></p>
+    <div class="advice text-Light-Cyan text-xl md:text-3xl ">
+    </div>
+
+    <img class="max-w-full mx-auto pb-5 md:hidden" src="images/pattern-divider-mobile.svg" alt="">
+    <img class=" hidden max-w-full mx-auto pb-5 md:block" src="images/pattern-divider-desktop.svg" alt="">
+
+
+    <div
+      class="absolute rounded-full w-14 h-14 bg-Neon-Green flex justify-center items-start  cursor-pointer hover:shadow-[0px_0px_80px_0px_hsl(150,_100%,_66%)] dice-position">
+      <img class="absolute p-4 dice" src="images/icon-dice.svg" alt="dice">
+
+    </div>
+  </div>
+
+</body>
+
+</html>
